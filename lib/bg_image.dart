@@ -6,6 +6,8 @@ class BgImage extends StatelessWidget {
     return Image.asset(
       "assets/audio.jpg",
       fit: BoxFit.cover,
+      color: Colors.black.withOpacity(0.7),
+      colorBlendMode: BlendMode.darken,
     );
   }
 }
